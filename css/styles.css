@@ -89,7 +89,7 @@ nav .hamburger-list-container .nav-link {
     background-color:rgb(250,100,175) ;
     width:50px;
     padding:10px 5px;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 .socials img {

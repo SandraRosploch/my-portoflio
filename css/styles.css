@@ -95,3 +95,9 @@ nav .hamburger-list-container .nav-link {
 .socials img {
     width:100%;
 }
+@media (max-width:600px) {
+    .socials {
+        display:none;
+        
+    }
+}

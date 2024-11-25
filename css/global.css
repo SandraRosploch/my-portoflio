@@ -64,6 +64,10 @@ nav .hamburger-list-container .nav-link {
     display: none !important ;
 }
 
+.hamburger-list-container {
+    display: none;
+}
+
 @media (max-width:1000px) {
     h3{
         display:none;
@@ -79,6 +83,10 @@ nav .hamburger-list-container .nav-link {
     }
     .menu-container .nav-links {
         display: none;
+     }
+
+     .hamburger-list-container {
+        display:block; 
      }
 }
 

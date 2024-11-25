@@ -20,30 +20,6 @@
     }
 }
 
-section {
-    color:rgb(216,216,216);
-}
-
-section a {
-    text-decoration: none;
-    color:rgb(216,216,216);
-}
-
-section h3 {
-    font-size: 30px;
-    margin:0;
-    text-decoration: none;
-}
-
-h1 {
-    font-size:70px ;
-    margin:0;
-}
-
-p {
-    font-size: 18px;
-}
-
 .main-section {
     height: 100vh;
     display:flex;
@@ -190,14 +166,3 @@ p {
     font-style: italic;
 }
 
-footer {
-    background-color: rgb(3, 114,114);
-    display: flex;
-    justify-content: flex-end;
-    padding: 50px;
-}
-
-footer a {
-    text-decoration: none;
-    color:rgb(255,255,255);
-}

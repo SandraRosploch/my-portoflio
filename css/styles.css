@@ -235,3 +235,51 @@ p {
         padding:50px 0 0 0;
     }
 }
+
+.about-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+    
+    .quote-container{
+        width:40%;
+        padding:40px;
+    }
+
+.about-container {
+   width:30%;
+   padding: 80px 0;
+
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container, .quote-container {
+        padding:100px 0;
+        width:80%;
+    }
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+footer {
+    background-color: rgb(3, 114,114);
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(255,255,255);
+}
